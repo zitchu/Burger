@@ -1,0 +1,105 @@
+/* Calculadora de hamburger do Jean*/
+
+/* TAGS */
+p{
+    color: white;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 15px;
+
+}
+
+h1{
+    color: white;
+    text-align: center;
+    opacity: 0.9;
+    font-size: 3em;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: #9B111E 2px 3px 3px;
+    
+}
+h2, h3{
+    padding-left: 10px;
+}
+
+header{
+    position: fixed;
+    min-width: 100%;
+    background-color: darkgoldenrod;
+    height: 100px;
+    z-index: 9;
+}
+
+body{
+    background-color: darkgoldenrod;
+    color: #9B111E;
+    font-family: 'Open Sans', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    clear: both;
+    background-color: #9B111E;
+    height: 20px;
+    text-align: center;
+    color: darkgoldenrod;
+    padding: 5px;
+    
+    }
+
+/* IDs */
+
+#div_principal{
+    background-color: darkgoldenrod;
+    background-image: url("burg1.jpg");
+    background-size: 100%;
+    min-height: 450px;
+    min-width: 1000px;
+    padding: 150px 0 0 0;
+    clear: both;
+    
+}
+
+#logo{
+    float: left;
+}
+
+#menu{
+    float: right;
+    margin-top: 40px;
+}
+
+#menu a{
+    padding: 40px 10px 40px 15px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px #9B111E;    
+}
+#menu a:hover{
+    background-color: #9B111E;
+    border-radius: 10px;
+    color: darkgoldenrod;
+    text-shadow: black 1px 1px 1px;
+    box-shadow: #000 3px 4px 5px;
+    -webkit-transition: 0.3s;
+}
+
+/* CLASS */
+
+.container{
+    width: 960px;
+    margin: 0 0 10px 10px;
+    
+}
+
+.efeito{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px 0 15px 0;
+}
+ul{
+    padding-left: 25px;
+}
